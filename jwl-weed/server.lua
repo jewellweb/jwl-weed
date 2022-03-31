@@ -9,8 +9,7 @@
          # # # #        # # #           # # #      # # # # # #        
 --]]
 
-QBCore = nil
-TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
+local QBCore = exports['qb-core']:GetCoreObject()
 
 -- KENEVIR SATMA
 
